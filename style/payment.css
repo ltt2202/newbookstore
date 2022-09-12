@@ -1,0 +1,39 @@
+.payment-methods__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.payment-methods__change {
+  color: #215cf5;
+  cursor: pointer;
+}
+.payment-info {
+  font-weight: 600;
+  font-size: 20px;
+}
+.cost {
+  font-weight: 600;
+  color: #d51c24;
+}
+.confirm-btn {
+  color: #fff;
+  border-radius: 5px;
+  border: 2px solid #215cf5;
+  background-color: #215cf5;
+  margin-top: 12px;
+}
+.danger {
+  display: none;
+  color: #d51c24;
+}
+.pop-up {
+  display: none;
+  width: 300px;
+  color: #ffff;
+  background-color: #215cf5;
+  border-radius: 10px;
+  border: 1px solid #215cf5;
+  padding: 10px;
+  position: fixed;
+  bottom: 5vh;
+  right: 5vh;
+}

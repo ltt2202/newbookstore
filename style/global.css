@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.logo {
+  width: 70px;
+}
+.container-fluid {
+  max-width: 1224px;
+  padding: 0 12px;
+}
+.nav-item {
+  background-color: #215cf5;
+}
+.ph-list {
+  font-size: 24px;
+  margin-right: 4px;
+}
+.ph-handbag {
+  font-size: 24px;
+}
+.search {
+  position: relative;
+}
+
+.search input {
+  width: 300px;
+  border-radius: 24px;
+  line-height: 32px;
+  outline: none;
+  padding: 0 10px;
+  border: #ababab 1px solid;
+}
+.search-btn {
+  cursor: pointer;
+  margin: 0 10px 0 5px;
+  width: 34px;
+  height: 34px;
+  background-color: #215cf5;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+}
+.ph-magnifying-glass {
+  top: 10px;
+  right: 12px;
+  color: white;
+}
+.rounded-8px {
+  border-radius: 8px;
+}
+
+.ph-book-bookmark {
+  font-size: 4rem;
+}
+.cart-btn {
+  width: 24px;
+  height: 24px;
+  color: black;
+}
+.search input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ababab;
+}
+
+.product-card {
+  padding: 5px;
+}
+.product-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.product-card__image img {
+  max-width: 100%;
+}
+.product-card__name {
+  color: black;
+  font-weight: 600;
+}
+.product-card__price {
+  color: #d51c24;
+  font-weight: 600;
+}
+
+.home-products__heading--title {
+  margin: 0;
+}
+.home-products__heading {
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+.breadcrumb {
+  padding-bottom: 24px;
+}
+footer {
+  margin-top: 300px;
+  padding: 12px 0;
+  background-color: rgba(202, 213, 240, 20%);
+}
+.footer-content {
+  margin: 50px 0;
+}
+.footer-content__title {
+  font-weight: 600;
+}
+.ph-facebook-logo,
+.ph-discord-logo,
+.ph-reddit-logo {
+  font-size: 32px;
+  color: black;
+}
+.footer-content__list-item a {
+  color: black;
+}
+
+@media screen and (max-width: 400px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .search input {
+    width: 200px;
+  }
+  .ph-book-bookmark {
+    font-size: 24px;
+  }
+  .navbar-brand {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .search input {
+    width: 120px;
+  }
+  .ph-book-bookmark {
+    font-size: 24px;
+  }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

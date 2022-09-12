@@ -1,0 +1,23 @@
+.filter-title {
+  font-weight: 600;
+}
+.filter-by-category__option a {
+  cursor: pointer;
+  color: black;
+}
+.product-list {
+  margin-top: 24px;
+}
+.filter-title {
+  background-color: #215cf5;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 20px;
+}
+.filter-by-price {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.filter-by-price__option {
+  cursor: pointer;
+}

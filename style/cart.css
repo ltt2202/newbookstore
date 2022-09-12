@@ -1,0 +1,152 @@
+.table-header {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #aaaaaa;
+}
+hr {
+  margin: 8px 0;
+}
+.table-header__title {
+  font-weight: 600;
+}
+.ph-plus-circle,
+.ph-minus-circle {
+  font-size: 32px;
+  cursor: pointer;
+}
+.add-cart-input input {
+  padding: 0 8px;
+  width: 40px;
+  height: 40px;
+  margin: 8px;
+  text-align: center;
+}
+.ph-trash {
+  font-size: 24px;
+  cursor: pointer;
+}
+.ph-trash:hover {
+  font-size: 24px;
+  cursor: pointer;
+  color: #3e65f6;
+}
+.product-price {
+  color: #d51c24;
+  font-weight: 600;
+}
+.product-name {
+  font-weight: 600;
+  padding-left: 5px;
+}
+.product-img img {
+  width: 35%;
+}
+.table-row {
+  padding: 10px 0;
+  margin: 5px 0;
+  border-radius: 10px;
+  border: 1px solid #aaaaaa;
+}
+.sale {
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 1px solid #aaaaaa;
+}
+.sale-title {
+  font-weight: 600;
+}
+.pop-up {
+  display: none;
+  width: 300px;
+  color: #ffff;
+  background-color: #215cf5;
+  border-radius: 10px;
+  border: 1px solid #215cf5;
+  padding: 10px;
+  position: fixed;
+  bottom: 5vh;
+  right: 5vh;
+}
+
+.sale-btn {
+  color: #fff;
+  background-color: #3e65f6;
+  border-radius: 10px;
+  border: 2px solid #3e65f6;
+  padding: 5px 10px;
+}
+.sale-input {
+  outline: 0px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid rgba(102, 102, 111, 30%);
+  background-color: rgba(102, 102, 111, 30%);
+}
+.sale-input-group {
+  padding: 0 10px;
+}
+.total-cost__title {
+  font-weight: 600;
+}
+.total-cost-group {
+  padding: 20px 40px;
+  border: 1px solid #aaaaaa;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.submit {
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 20px;
+  border: 1px solid #3e65f6;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #3e65f6;
+}
+.total-cost--bf,
+.total-cost--fn,
+.total-cost--at {
+  font-weight: 600;
+  color: #d51c24;
+}
+@media screen and (max-width: 560px) {
+  .ph-plus-circle,
+  .ph-minus-circle {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .add-cart-input input {
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+    text-align: center;
+  }
+  .product-img img {
+    display: none;
+  }
+  .product-name {
+    font-weight: 600;
+    padding-left: 5px;
+    font-size: 12px;
+  }
+  .product-price {
+    font-weight: 600;
+    padding: 0;
+    font-size: 12px;
+  }
+  .ph-trash {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .product-delete {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .product-price {
+    font-weight: 600;
+    padding: 0;
+  }
+}
