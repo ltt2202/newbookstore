@@ -44,7 +44,7 @@ confirm.addEventListener("click", () => {
       localStorage.removeItem("cart");
       popup.style.display = "block";
       setTimeout(() => {
-        window.location.replace("/index.html");
+        window.location.replace("./index.html");
       }, 2000);
     });
   } else {
