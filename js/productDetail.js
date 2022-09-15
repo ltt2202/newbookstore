@@ -17,7 +17,7 @@ fetch(
     const buy = document.querySelector(".buy-btn");
     buy.addEventListener("click", () => {
       addCart(id, data);
-      window.location.replace("/cart.html");
+      window.location.replace("./cart.html");
     });
   });
 
